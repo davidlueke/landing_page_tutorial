@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+.header{
+    display: flex;
+    background-color: #1F2937;
+    padding: 0 200px 100px;
+}
+
+.header_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    align-items: start;
+}
+
+.header_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    align-items: end;
+}
+
+.header_card {
+    width: 300px;
+}
+.hero_main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.sign{
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    height: 32px;
+    width: 128px;
+    font-weight: bold;
+}
+
+a, .secondary {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
