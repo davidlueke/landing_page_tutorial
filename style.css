@@ -44,9 +44,12 @@ body{
     border-radius: 8px;
     height: 32px;
     width: 128px;
+    font-size: 16px;
     font-weight: bold;
     border: 1px solid #3882f6;
 }
+
+
 
 .info {
     display: flex;
@@ -86,10 +89,12 @@ body{
     margin-bottom: 10px;
 }
 
-.text {
+.info-text{
     font-size: 16px;
     color:#1F2937;
 }
+
+
 
 .quote-section {
     background-color: #E5E7EB;
@@ -118,6 +123,47 @@ body{
     font-size: 24px;
     font-weight: 900;
 }
+
+
+
+.callout {
+    display: flex;
+    justify-content: center;
+    background-color:#F9FAF8;
+    padding: 64px;
+}
+
+.callout-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    background-color: #3882f6;
+    padding: 48px 128px;
+    border-radius: 8px;
+}
+
+.callout-left {
+    color: #F9FAF8;
+    font-size: 16px;
+}
+
+.callout-head {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign-white {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    height: 32px;
+    width: 128px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid #E5E7EB;
+}
+
 
 a, .secondary {
     text-decoration: none;
