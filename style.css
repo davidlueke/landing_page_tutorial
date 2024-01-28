@@ -1,5 +1,3 @@
-
-
 body{
     display: flex;
     flex-direction: column;
@@ -91,6 +89,34 @@ body{
 .text {
     font-size: 16px;
     color:#1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-card {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    margin: 100px 20px 100px;
+    width: 800px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color:#1F2937;
+}
+
+.quote-author {
+    text-align: end;
+    font-size: 24px;
+    font-weight: 900;
 }
 
 a, .secondary {
