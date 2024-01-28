@@ -162,8 +162,15 @@ body{
     font-weight: bold;
     font-size: 16px;
     border: 1px solid #E5E7EB;
+    flex-shrink: 0;
 }
 
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 32px;
+}
 
 a, .secondary {
     text-decoration: none;
